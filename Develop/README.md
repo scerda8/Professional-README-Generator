@@ -31,7 +31,7 @@
   yes
   
   ## Questions
-  If you have any questions please see my Github profile at https://github.com/scerda.
+  If you have any questions please see my Github profile at https://github.com/scerda8.
   
   Feel free to send me a message to my email at: cerdashandy@gmail.com.
     
