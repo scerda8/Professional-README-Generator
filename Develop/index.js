@@ -34,7 +34,6 @@ var questions=[
         name: 'license',
         message: 'Enter the license for your project',
         choices:['MIT','Apache_2.0','Mozilla_Public_2.0','None']
-        //choices: ['MIT License','The Unlicense','Mozilla Public License 2.0','Apache 2.0','GNU Lesser General Public License v2.1','GNU General Public License v2.0','BSD 2-Clause','GNU Affero General Public License v3.0','BSD 3-Clause License','Boost Software License','Eclipse Public License 2.0','Creative Commons zero v1.0 Univeral']
       },
     {
       type: 'input',
