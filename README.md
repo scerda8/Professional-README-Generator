@@ -51,7 +51,15 @@ THEN I am taken to the corresponding section of the README
 
 
 
-Video Demo:[Untitled_ Apr 23, 2024 12_02 AM.webm](https://github.com/scerda8/Professional-README-Generator/assets/159675591/cf404ef2-b39d-4910-9129-5e207de96fc4)
+Video Demo:[Untitled_ Apr 23, 2024 12_02 AM.webm](https://github.com/scerda8/Professional-README-Generator/assets/159675591/c6e9234d-9ab7-4a55-a5ae-4b4eefa39fc1)
+
+
+![image](https://github.com/scerda8/Professional-README-Generator/assets/159675591/d7243fec-319c-4d0e-bae7-518d37732d38)
+![image](https://github.com/scerda8/Professional-README-Generator/assets/159675591/889bdc9a-2f37-4229-84d3-a0cab996a2af)
+![image](https://github.com/scerda8/Professional-README-Generator/assets/159675591/42065f68-b2f8-4a22-beca-409052faa05d)
+![image](https://github.com/scerda8/Professional-README-Generator/assets/159675591/21aaa9f5-de8e-4b7c-9efa-edc154e2940e)
+![image](https://github.com/scerda8/Professional-README-Generator/assets/159675591/dfe87681-c8c7-4afc-ac71-11bd23a9527a)
+
 
 Link to Github repo:https://github.com/scerda8/Professional-README-Generator.git
 
