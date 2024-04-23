@@ -33,7 +33,7 @@ var questions=[
         type:'list',
         name: 'license',
         message: 'Enter the license for your project',
-        choices:['MIT','Apache','None']
+        choices:['MIT','Apache_2.0','Mozilla_Public_2.0','None']
         //choices: ['MIT License','The Unlicense','Mozilla Public License 2.0','Apache 2.0','GNU Lesser General Public License v2.1','GNU General Public License v2.0','BSD 2-Clause','GNU Affero General Public License v3.0','BSD 3-Clause License','Boost Software License','Eclipse Public License 2.0','Creative Commons zero v1.0 Univeral']
       },
     {
@@ -48,52 +48,77 @@ var questions=[
     },
     {
       type: 'input',
-      name: 'username',
-      message: 'enter your Github Username',
+      name: 'questions',
+      message: 'insert Github username',
     },
     {
-        type: 'input',
-        name: 'email',
-        message: 'enter your email address',
-  
-     },
+      type: 'input',
+      name: 'email',
+      message: 'insert email address',
+    },
+    
     ];
 
+    function renderLicenseBadge(license) {
+      if(license !== 'None'){
 
+      
+    return `![License](https://img.shields.io/badge/License-${license}-purple.svg)`
+      }
+      return "";
+  }
+    
+    // TODO: Create a function that returns the license link
+    // If there is no license, return an empty string
+    function renderLicenseLink(license) {}
+    
+    // TODO: Create a function that returns the license section of README
+    // If there is no license, return an empty string
+    function renderLicenseSection(license) {}
+
+    // TODO: Create a function that returns the license link
+    // If there is no license, return an empty string
+    function renderLicenseLink(license) {}
+    
+    
 // TODO: Create a function to write README file
 function writeToFile(README, data) {
     var content = `
+ ${renderLicenseBadge(data.license)}
 
-    ##Title
-    ${data.title}
+  ## Title
+  ${data.title}
 
-    ## Description 
-    ${data.description}
+  ## Description 
+  ${data.description}
 
-    ## Table of Contents
-    -[Installation](#installation)
-    -[Usage](#usage)
-    -[License](#license)
-    -[Contrubuting](#contributing)
-    -[Tests](#tests)
+  ## Table of Contents
+  -[Installation](#installation)
+  -[Usage](#usage)
+  -[License](#license)
+  -[Contrubuting](#contributing)
+  -[Tests](#tests)
+  -[Questions](#questions)
 
-    ##Installation
-    ${data.installation}
+  ## Installation
+  ${data.installation}
 
-    ##Usage
-    ${data.usage}
+  ## Usage
+  ${data.usage}
 
-    ##License
-    ${data.license}
+  ## License
+  ${data.license}
 
-    ##Contributing
-    ${data.contributing}
+  ## Contributing
+  ${data.contributing}
 
-    ## Tests
-    ${data.tests}
-    
-    ## Questions
-     Username and Email: ${data.Questions}
+  ## Tests
+  ${data.tests}
+  
+  ## Questions
+  If you have any questions please see my Github profile at https://github.com/${data.questions}.
+  
+  Feel free to send me a message to my email at: ${data.email}.
     `;
     
         fs.writeFile(README, content, (err) => {
