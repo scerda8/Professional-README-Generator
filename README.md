@@ -51,10 +51,10 @@ THEN I am taken to the corresponding section of the README
 
 
 
-Video Demo:
-Untitled_ Apr 22, 2024 11_21 PM
+Video Demo:[Untitled_ Apr 23, 2024 12_02 AM.webm](https://github.com/scerda8/Professional-README-Generator/assets/159675591/cf404ef2-b39d-4910-9129-5e207de96fc4)
 
-Link to Github repo:
+Link to Github repo:https://github.com/scerda8/Professional-README-Generator.git
+
 
 
 
