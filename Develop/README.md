@@ -16,7 +16,7 @@
   -[Questions](#questions)
 
   ## Installation
-  Open terminal and run node.js. Just by following the prompts asked to the user and it will get generated in the README file within the same directory
+  Open terminal and run node index.js. Just by following the prompts asked to the user and it will get generated in the README file within the same directory
 
   ## Usage
   This application can be used by having node index.js in the terminal of the choosing file that the index.js was created in 
