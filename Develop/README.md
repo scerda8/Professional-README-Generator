@@ -5,7 +5,7 @@
   README.md Generator
 
   ## Description 
-  Quickly generate a README for a new project using node.js and inquirer
+  Quickly generate a README for a new project using node,index.js and inquirer
 
   ## Table of Contents
   -[Installation](#installation)
